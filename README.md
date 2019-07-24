@@ -1,7 +1,7 @@
 # Real World Reinforcement Learning Workshop
 
 ### AI NEXTCon 2019
-Thursday July 25, 2019
+Thursday July 25, 2019  
 9:00AM - 12:00PM  
 
 Address:
