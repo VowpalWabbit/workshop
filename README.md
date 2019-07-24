@@ -1,8 +1,13 @@
 # Real World Reinforcement Learning Workshop
 
 ### AI NEXTCon 2019
-Thursday July 24, 2019  
+Thursday July 25, 2019
 9:00AM - 12:00PM  
+
+Address:
+Galvanize NYC (2nd floor)
+303 Spring St, New York, NY 10013
+
 
 ## Abstract
 Microsoft recently announced the Azure Cognitive Service, Personalizer, aimed at democratizing real world reinforcement learning for content personalization. Its goal is to make reinforcement learning accessible to everyone, not just machine learning experts. Personalizer is the result of a successful partnership between Microsoft Research and Azure Cognitive Services aimed at rapid technology transfer and innovation.
