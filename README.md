@@ -4,8 +4,8 @@
 Thursday July 25, 2019  
 9:00AM - 12:00PM  
 
-Address:
-Galvanize NYC (2nd floor)
+Address:  
+Galvanize NYC (2nd floor)  
 303 Spring St, New York, NY 10013
 
 
