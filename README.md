@@ -23,7 +23,7 @@ In this workshop you will learn the theory behind contextual bandits and how thi
   </tr>
   <tr>
     <td>9:45AM - 10:15AM</td>
-    <td>Overview of Azure Cognitive Services Personalizer <a href="https://aka.ms/icml2019-personalizer-slides">(Slides)</a></td>
+    <td>Overview of Azure Cognitive Services Personalizer <a href="https://aka.ms/personalizer-slides">(Slides)</a></td>
   </tr>
   <tr>
     <td>10:15AM - 10:30AM</td>
@@ -31,11 +31,11 @@ In this workshop you will learn the theory behind contextual bandits and how thi
   </tr>
   <tr>
     <td>10:30AM - 11:10AM</td>
-    <td>Hands on: Setting up SDK and writing first application <a href="https://aka.ms/icml2019-demo-slides">(Slides)</a></td>
+    <td>Hands on: Setting up SDK and writing first application <a href="https://aka.ms/sdk-setup-slides">(Slides)</a></td>
   </tr>
   <tr>
     <td>11:10AM - 11:30AM</td>
-    <td>Hands on: Counterfactual evaluation and offline policy optimization</td>
+    <td>Hands on: Counterfactual evaluation and offline policy optimization <a href="https://aka.ms/counterfactual-slides">(Slides)</a></td>
   </tr>
   <tr>
     <td>11:00AM - 12:00PM</td>
