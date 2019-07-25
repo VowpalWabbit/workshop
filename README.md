@@ -19,7 +19,7 @@ In this workshop you will learn the theory behind contextual bandits and how thi
 <table>
   <tr>
     <td>9:00AM - 9:45AM</td>
-    <td>Introduction to reinforcement learning and contextual bandits <a href="https://aka.ms/icml2019-rl-slides">(Slides)</a></td>
+    <td>Introduction to reinforcement learning and contextual bandits <a href="https://aka.ms/ai-nextcon-rl-slides">(Slides)</a></td>
   </tr>
   <tr>
     <td>9:45AM - 10:15AM</td>
