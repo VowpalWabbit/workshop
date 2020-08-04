@@ -18,23 +18,23 @@ Come and learn about reinforcement learning, the theory behind contextual bandit
 <table>
   <tr>
     <td>10:00AM - 10:10AM</td>
-    <td>Intro: How can apps react to a changing world? <a href="">(Slides)</a></td>
+    <td>Intro: How can apps react to a changing world? <a href="https://aka.ms/AINextCon2020_intro">(Slides)</a></td>
   </tr>
   <tr>
     <td>10:10AM - 10:45AM</td>
-    <td>Introduction to reinforcement learning and contextual bandits <a href="">(Slides)</a></td>
+    <td>Introduction to reinforcement learning and contextual bandits <a href="https://aka.ms/AINextCon_cb_intro">(Slides)</a></td>
   </tr>
   <tr>
     <td>10:45AM - 11:10AM</td>
-    <td>Overview of Azure Cognitive Services Personalizer <a href="">(Slides)</a></td>
+    <td>Overview of Azure Cognitive Services Personalizer <a href="https://aka.ms/AINextCon_personalizer_overview">(Slides)</a></td>
   </tr>
   <tr>
     <td>11:10AM - 11:20AM</td>
-    <td>Apprentice mode <a href="">(Slides)</a></td>
+    <td>Apprentice mode <a href="https://aka.ms/AINextCon_apprentice_mode">(Slides)</a></td>
   </tr>
   <tr>
     <td>11:20AM - 11:50AM</td>
-    <td>Making contextual bandits work in practice <a href="">(Slides)</a></td>
+    <td>Making contextual bandits work in practice <a href="https://aka.ms/AINextCon_cb_in_practice">(Slides)</a></td>
   </tr>
   <tr>
     <td>11:50AM - 12:00PM</td>
