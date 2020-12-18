@@ -20,10 +20,10 @@ Come and learn about reinforcement learning, Vowpal Wabbit, and applying context
 - VW + Python + Contextual Bandits 
 
 ## Slides
-- [Introduction](https://github.com/VowpalWabbit/workshop/blob/master/neurips2019/intro.pdf)
-- [Contextual Bandits](https://github.com/VowpalWabbit/workshop/blob/master/neurips2019/contextual_bandits.pdf)
-- [Personalizer](https://github.com/VowpalWabbit/workshop/blob/master/neurips2019/personalizer.pdf)
-- [VW on Spark](https://github.com/VowpalWabbit/workshop/blob/master/neurips2019/VW_on_Spark.pdf)
+- [Introduction](https://github.com/VowpalWabbit/workshop/blob/master/NeurIPS2019/01_Intro.pdf)
+- [Contextual Bandits](https://github.com/VowpalWabbit/workshop/blob/master/NeurIPS2019/02_ContextualBandits.pdf)
+- [Personalizer](https://github.com/VowpalWabbit/workshop/blob/master/NeurIPS2019/03_Personalizer.pdf)
+- [VW on Spark](https://github.com/VowpalWabbit/workshop/blob/master/NeurIPS2019/04_VWOnSpark.pdf)
 
 ## Resources
 - [https://vowpalwabbit.org](https://vowpalwabbit.org)
