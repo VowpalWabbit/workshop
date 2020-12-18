@@ -20,11 +20,11 @@ Dive beyond Contextual Bandits in the Real World:
 
 ## Schedule and Slides
 
-- [Introduction](https://github.com/VowpalWabbit/workshop/blob/master/neurips2020/01_VWIntroduction.pdf)
-- [Probabilistic Label Trees](https://github.com/VowpalWabbit/workshop/blob/master/neurips2020/02_PLT.pdf)
-- [Contextual Bandits with Continuous Actions](https://github.com/VowpalWabbit/workshop/blob/master/neurips2020/03_CBWithContinuousActions.pdf)
+- [Introduction](https://github.com/VowpalWabbit/workshop/blob/master/NeurIPS2020/01_VWIntroduction.pdf)
+- [Probabilistic Label Trees](https://github.com/VowpalWabbit/workshop/blob/master/NeurIPS2020/02_PLT.pdf)
+- [Contextual Bandits with Continuous Actions](https://github.com/VowpalWabbit/workshop/blob/master/NeurIPS2020/03_CBWithContinuousActions.pdf)
 - Slates
 - SquareCB
 - Distributionally-Robust CB
-- [CB Visualizations](https://github.com/VowpalWabbit/workshop/blob/master/neurips2020/07_RLOS_CBVisualization.pdf)
-- [CB Benchmarks](https://github.com/VowpalWabbit/workshop/blob/master/neurips2020/08_RLOS_CoBa.pdf)
+- [CB Visualizations](https://github.com/VowpalWabbit/workshop/blob/master/NeurIPS2020/07_RLOS_CBVisualization.pdf)
+- [CB Benchmarks](https://github.com/VowpalWabbit/workshop/blob/master/NeurIPS2020/08_RLOS_CoBa.pdf)
