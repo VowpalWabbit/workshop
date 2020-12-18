@@ -16,11 +16,11 @@ In this workshop you will learn the theory behind contextual bandits and how thi
 <table>
   <tr>
     <td>2PM - 3PM</td>
-    <td>Introduction to reinforcement learning and contextual bandits <a href="https://github.com/VowpalWabbit/workshop/blob/master/icml2019/01_RLIntro.pdf">(Slides)</a></td>
+    <td>Introduction to reinforcement learning and contextual bandits <a href="https://github.com/VowpalWabbit/workshop/blob/master/ICML2019/01_RLIntro.pdf">(Slides)</a></td>
   </tr>
   <tr>
     <td>3PM - 3:30PM</td>
-    <td>Overview of Azure Cognitive Services Personalizer <a href="https://github.com/VowpalWabbit/workshop/blob/master/icml2019/02_PersonalizerOverview.pdf">(Slides)</a></td>
+    <td>Overview of Azure Cognitive Services Personalizer <a href="https://github.com/VowpalWabbit/workshop/blob/master/ICML2019/02_PersonalizerOverview.pdf">(Slides)</a></td>
   </tr>
   <tr>
     <td>3:30PM - 4PM</td>
@@ -28,7 +28,7 @@ In this workshop you will learn the theory behind contextual bandits and how thi
   </tr>
   <tr>
     <td>4PM - 4:30PM</td>
-    <td>Hands on: Setting up SDK and writing first application <a href="https://github.com/VowpalWabbit/workshop/blob/master/icml2019/03_SDKSetupAndCFE.pdf">(Slides)</a></td>
+    <td>Hands on: Setting up SDK and writing first application <a href="https://github.com/VowpalWabbit/workshop/blob/master/ICML2019/03_SDKSetupAndCFE.pdf">(Slides)</a></td>
   </tr>
   <tr>
     <td>4:30PM - 5PM</td>
@@ -49,8 +49,8 @@ In this workshop you will learn the theory behind contextual bandits and how thi
     4. Search for "Personalizer (Preview)" and click "Create"
 3. Install Python Client
     1. ```pip install azure-cognitiveservices-personalizer```
-3. Paste your endpoint into [line 34 of ./demo/demo.py](https://github.com/VowpalWabbit/icml2019/blob/master/demo/demo.py#L34)
-4. Paste your key into [line 35 of ./demo/demo.py](https://github.com/VowpalWabbit/icml2019/blob/master/demo/demo.py#L35)
+3. Paste your endpoint into [line 34 of ./demo/demo.py](https://github.com/VowpalWabbit/blob/master/ICML2019/demo/demo.py#L34)
+4. Paste your key into [line 35 of ./demo/demo.py](https://github.com/VowpalWabbit/blob/master/ICML2019/demo/demo.py#L35)
 5. run `python ./demo/demo.py`
 
 ## Next steps
