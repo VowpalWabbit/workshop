@@ -23,9 +23,9 @@ Come and learn about reinforcement learning, the theory behind contextual bandit
 In progress
 
 ## Presenters
-Alexey Taymanov
-Olga Vrousgou
-Cheng Tan
-Oren Michaely
-...
+- Alexey Taymanov
+- Olga Vrousgou
+- Cheng Tan
+- Oren Michaely
+- ...
 
