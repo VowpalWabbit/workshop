@@ -23,6 +23,7 @@ Come and learn about reinforcement learning, the theory behind contextual bandit
 In progress
 
 ## Presenters
+- John Langford
 - Alexey Taymanov
 - Olga Vrousgou
 - Cheng Tan
