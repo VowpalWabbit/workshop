@@ -29,5 +29,4 @@ In progress
 - Cheng Tan
 - Oren Michaely
 - Rafah Hosn
-- ...
-
+- Zakaria Mhammedi
