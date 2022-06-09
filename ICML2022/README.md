@@ -23,11 +23,11 @@ Come and learn about reinforcement learning, the theory behind contextual bandit
 In progress
 
 ## Presenters
-- John Langford
-- Alexey Taymanov
-- Olga Vrousgou
-- Cheng Tan
-- Oren Michaely
-- Rafah Hosn
-- ...
+- John Langford (Microsoft Research)
+- Alexey Taymanov (Microsoft Research)
+- Olga Vrousgou (Microsoft Research)
+- Cheng Tan (Microsoft Research)
+- Oren Michaely (Microsoft Azure)
+- Rafah Hosn (Microsoft Research)
+- Zakaria Mhammedi (MIT)
 
