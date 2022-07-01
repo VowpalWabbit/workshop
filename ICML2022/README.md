@@ -30,4 +30,5 @@ In progress
 - Oren Michaely (Microsoft Azure)
 - Rafah Hosn (Microsoft Research)
 - Zakaria Mhammedi (MIT)
+- Mark Rucker (The University of Virginia)
 
