@@ -4,12 +4,13 @@ Vowpal Wabbit: year in review and looking ahead in an LLM world
 
 ## Abstract
 
-The landscape of reinforcement learning (RL) has been reshaped in recent years, with the advent of sample-efficient algorithms such as Contextual Bandits enabling innovative solutions to personalization and optimization challenges. Concurrently, the development of unbiased off-policy evaluation has equipped scientists with newfound capabilities for working with large real-world data volumes, enhancing trust in deploying machine learning models into production.
- 
-At the forefront of these innovations is Vowpal Wabbit (VW), an open-source machine learning toolkit and research platform. VW is known for its speed and scalability and continues to grow through the introduction of cutting-edge algorithms.
-With the runaway success of Large Language Models, related applications are being rapidly built and deployed.  LLM Application developers are faced with some common issues around learning from feedback, prompt selection, response selection, order of prompts, limited context lengths, slow response times.
- 
-Joining Vowpal Wabbit's quick, feedback-driven learning with LLMs could provide a strong answer to these challenges. This workshop aims to explore strategies for such integration. In our workshop, we'll discuss the following key areas:
+With the runaway success of Large Language Models, related applications are being rapidly built and deployed. LLM Application developers are faced with some common issues around learning from feedback, prompt selection, response selection, order of prompts, limited context lengths, slow response times.
+
+Reinforcement learning is a promising technology to address these challenges, particularly with the advent of sample-efficient algorithms for personalization and optimization scenarios. At the forefront of these RL solutions is Vowpal Wabbit (VW), an open-source machine learning toolkit and research platform. VW is known for its speed and scalability and continues to grow through the introduction of cutting-edge algorithms.
+
+In the past year we have been working on integrating Vowpal Wabbit with Large Language Model applications, to address some of the aformentioned challenges.
+
+This workshop aims to explore this integration, we'll discuss the following key areas:
  
 - A brief introduction to Vowpal Wabbit and its use of Contextual Bandits learning.
 - Strategies to harness the full potential of Vowpal Wabbit in various application scenarios.
