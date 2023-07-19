@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+
+    <title>Embedding VowpalWabbit</title>
+
+    <link rel="stylesheet" href="dist/reset.css" />
+    <link rel="stylesheet" href="dist/reveal.css" />
+    <link rel="stylesheet" href="dist/theme/black.css" />
+    <link rel="stylesheet" href="plugin/highlight/github-dark-dimmed.css" />
+
+	<style>
+		.two-col-container {
+		  display: flex;
+		}
+		.col {
+		  flex: 1;
+		}
+	  </style>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section>
+			<h2>Embedding Vowpal Wabbit</h2>
+			<br>
+			<img height="300px" width="300px" src="https://raw.githubusercontent.com/VowpalWabbit/vowpal_wabbit/master/logo_assets/vowpal-wabbits-logomark.svg">
+			<br>
+			Jack Gerrits
+		</section>
+
+		<section data-markdown>
+Why?
+
+- Personalizing user experiences with learned behavior
+- On device + privacy
+- VW has solutions to many problem kinds
+- Practical to run on CPU (inference or learning)
+		</section>
+
+        <section data-auto-animate>
+          <p>Python</p>
+          <p>WASM (Browser/NodeJS)</p>
+          <p>C++</p>
+          <p>C#</p>
+          <p>Java</p>
+        </section>
+
+        <section data-auto-animate>
+          <p>Python</p>
+          <p>WASM (Browser/NodeJS)</p>
+        </section>
+
+		<section data-auto-animate>
+			<p>Python</p>
+
+			<ul>
+				<li>Interactive usage</li>
+				<li>Powerful tools for debugging and inspection </li>
+				<li>Low resource requirements - use it anywhere you use Python</li>
+			</ul>
+		  </section>
+
+		<section data-auto-animate>
+			<p>Python CB</p>
+			<pre class="python" data-id="code-animation"><code data-trim data-line-numbers="1|3-10|12-17|19-23|25-29">
+import vowpal_wabbit_next as vw
+
+workspace = vw.Workspace([
+	# Contextual bandit solver
+	"--cb_explore_adf",
+	# With 20% epsilon greedy exploration
+	"--epsilon=0.2",
+	# interactions between 'U'ser and 'A'ction features
+	"-qUA"
+])
+
+text_parser = vw.TextFormatParser(workspace)
+example = [
+    text_parser.parse_line('shared |User Tom'),
+    text_parser.parse_line('0:-1:0.5 |Action politics'),
+    text_parser.parse_line('|Action sport'),
+]
+
+prediction = workspace.predict_then_learn_one(example)
+print(prediction) # [(0, 0.5), (1, 0.5)]
+
+prediction = workspace.predict_then_learn_one(example)
+print(prediction) # [(1, 0.9), (0, 0.1)]
+
+with open('model.bin', 'wb') as f:
+    f.write(workspace.serialize())
+
+with open('model.bin', 'rb') as f:
+    workspace = vw.Workspace(model_data=f.read())</code></pre>
+		</section>
+
+        <section data-auto-animate>
+          <div class="two-col-container">
+            <div class="col" data-markdown>
+
+[`vowpalwabbit`](https://pypi.org/project/vowpalwabbit/)
+
+- Existing package
+            </div>
+
+            <div class="col" data-markdown>
+[`vowpal_wabbit_next`](https://pypi.org/project/vowpal_wabbit_next/)
+
+- ✨ **New** package
+- Improved API, but still familiar
+- Dev effort is here now
+- Feedback appreciated
+			</div>
+          </div>
+        </section>
+
+        <section data-markdown>
+			- No `finish_example`
+			- Can read/edit the VW weights as an Numpy ndarray (Yes!)
+			- Simpler file based parsing
+			- Cache supported
+
+			https://vowpal-wabbit-next.readthedocs.io/
+		</section>
+
+		<section data-auto-animate>
+<p><code>vowpalwabbit</code> vs <code>vowpal_wabbit_next</code></p>
+<pre class="python"><code data-trim>
+import vowpalwabbit as vw
+
+workspace = vw.Workspace(
+	"--cb_explore_adf -qUA --epsilon=0.2")
+</code></pre>
+
+<p>V</p>
+
+<pre class="python"><code data-trim>
+import vowpal_wabbit_next as vw
+
+workspace = vw.Workspace(["--cb_explore_adf",
+	"-qUA", "--epsilon=0.2"])
+</code></pre>
+		  </section>
+
+		  <section data-auto-animate>
+<p><code>vowpalwabbit</code> vs <code>vowpal_wabbit_next</code></p>
+
+<pre class="python"><code data-trim>
+examples = [
+	workspace.parse("shared |User Anna")
+	workspace.parse("0:0:0.5 |Action politics")
+	workspace.parse("|Action sports")
+]
+
+workspace.learn(examples)
+workspace.finish_example(examples)
+</code></pre>
+
+<p>V</p>
+
+<pre class="python"><code data-trim>
+text_parser = vw.TextParser(workspace)
+examples = [
+	text_parser.parse("shared |User Anna")
+	text_parser.parse("0:0:0.5 |Action politics")
+	text_parser.parse("|Action sports")
+]
+workspace.learn_one(examples)
+</code></pre>
+		  </section>
+
+		  <section data-auto-animate>
+			<p>WASM (Browser/NodeJS)</p>
+			</section>
+
+			<section data-auto-animate>
+				<p>WASM (Browser/NodeJS)</p>
+				<ul>
+					<li>Unlocks running on user browser/device</li>
+					<li>Low latency</li>
+					<li>Sandboxed</li>
+				</ul>
+			</section>
+
+			<section data-markdown>
+[`npm i @vowpalwabbit/vowpalwabbit`](https://www.npmjs.com/package/@vowpalwabbit/vowpalwabbit)
+
+- NodeJS
+- ES6
+			</section>
+
+			<section data-auto-animate>
+				<p>Javascript simple regression</p>
+				<pre class="javascript" data-id="code-animation"><code data-trim data-line-numbers="1|3|4-6|7-8|9-11">
+const vwPromise = require('@vowpalwabbit/vowpalwabbit');
+
+vwPromise.then((vw) => {
+	let model = new vw.Workspace({
+		args_str: ""
+	});
+	let example = model.parse("|f 6:6.8953723e-02");
+	let prediction = model.predict(example);
+	model.finishExample(example);
+	example.delete();
+	model.delete();
+});
+</code></pre>
+			</section>
+
+			<section data-auto-animate>
+<p>Javascript CB</p>
+				<pre class="javascript" data-id="code-animation"><code data-trim data-line-numbers="1|4-6|8-13|14|17|18-23|24-25|27">
+const vwPromise = require('@vowpalwabbit/vowpalwabbit');
+
+vwPromise.then((vw) => {
+	let model = new vw.CbWorkspace({
+		args_str: "--cb_explore_adf -qUA --epsilon=0.2"
+	});
+
+	let example = {
+		text_context: `shared |User Tom
+			0:-1:0.5 |Action politics
+			|Action sport`
+	};
+
+	let pred = model.predictAndSample(example);
+
+	// user defined cost function
+	let action_cost = calculate_cost_from_action(pred["action"])
+
+	example.labels = [{
+		action: pred["action"],
+		cost: action_cost,
+		probability: pred["score"]
+	}];
+
+	model.learn(example);
+
+	model.delete()
+});</code></pre>
+			</section>
+      </div>
+    </div>
+
+    <script src="dist/reveal.js"></script>
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script>
+      Reveal.initialize({
+        hash: true,
+        plugins: [RevealMarkdown, RevealHighlight],
+      });
+    </script>
+  </body>
+</html>

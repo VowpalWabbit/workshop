@@ -11,11 +11,11 @@ Reinforcement learning is a promising technology to address these challenges, pa
 In the past year we have been working on integrating Vowpal Wabbit with Large Language Model applications, to address some of the aformentioned challenges.
 
 This workshop aims to explore this integration, we'll discuss the following key areas:
- 
+
 - A brief introduction to Vowpal Wabbit and its use of Contextual Bandits learning.
 - Strategies to harness the full potential of Vowpal Wabbit in various application scenarios.
 - Learned Orchestration with Vowpal Wabbit. Considering the rapid growth of LLMs, there's a promising future in combining these models with VW.
- 
+
 Join us as we delve into this forward-looking exploration. Whether you're a data scientist or a machine learning enthusiast, this workshop will offer valuable insights into building VW and LLM based applications and how it could impact your machine learning applications.
 
 ## Schedule
@@ -24,7 +24,7 @@ Join us as we delve into this forward-looking exploration. Whether you're a data
 - What is Vowpal Wabbit (quick overview)
 - Learned orchestration with Vowpal Wabbit
  - demos of orchestration of LLMs using Vowpal Wabbit
-- Embedding Vowpal Wabbit in your applications
+- [Embedding Vowpal Wabbit in your applications](https://vowpalwabbit.org/workshop/ICML2023/embeddingvw/)
 - What's new in Vowpal Wabbit
  - Eigen Memory Tree
  - Contextual Bandits with Epsilon Decay
