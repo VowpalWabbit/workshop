@@ -1,6 +1,6 @@
 
 # ICML 2023
-Vowpal Wabbit: year in review and looking ahead in an LLM world
+Vowpal Wabbit: Year in review and looking ahead in an LLM world
 
 ## Abstract
 
@@ -23,7 +23,7 @@ Join us as we delve into this forward-looking exploration. Whether you're a data
 - Introduction by John Langford
 - What is Vowpal Wabbit (quick overview)
 - Learned orchestration with Vowpal Wabbit
- - demos of orchestration of LLMs using Vowpal Wabbit
+ - Demos of orchestration of LLMs using Vowpal Wabbit
 - [Embedding Vowpal Wabbit in your applications](https://vowpalwabbit.org/workshop/ICML2023/embeddingvw/)
 - What's new in Vowpal Wabbit
  - Eigen Memory Tree
@@ -32,9 +32,6 @@ Join us as we delve into this forward-looking exploration. Whether you're a data
  - Contextual Bandits with Graph Feedback
  - Merging Models
  - Interaction Grounded Learning
-
-## Workshop instructions
-In progress
 
 ## Presenters
 - John Langford (Microsoft Research)
