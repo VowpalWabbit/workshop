@@ -27,7 +27,7 @@ Join us as we delve into this forward-looking exploration. Whether you're a data
 - [Embedding Vowpal Wabbit in your applications](https://vowpalwabbit.org/workshop/ICML2023/embeddingvw/)
 - What's new in Vowpal Wabbit
  - Eigen Memory Tree
- - Contextual Bandits with Epsilon Decay
+ - Contextual Bandits with Non-Stationary Exploration
  - Contextual Bandits with Large Action Spaces
  - Contextual Bandits with Graph Feedback
  - Merging Models
